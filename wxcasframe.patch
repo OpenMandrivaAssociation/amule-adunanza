@@ -1,0 +1,12 @@
+diff -rupN a/src/utils/wxCas/src/wxcasframe.cpp b/src/utils/wxCas/src/wxcasframe.cpp
+--- a/src/utils/wxCas/src/wxcasframe.cpp	2010-02-03 18:14:39.000000000 +0100
++++ b/src/utils/wxCas/src/wxcasframe.cpp	2011-04-03 15:08:10.498981367 +0200
+@@ -307,7 +307,7 @@ WxCasFrame::GetStatImage () const
+ #else
+ 
+ 	memdc.
+-	SetFont ( wxFont::wxFont ( 8, wxSWISS, wxNORMAL, wxBOLD ) );
++	SetFont ( wxFont ( 8, wxSWISS, wxNORMAL, wxBOLD ) );
+ #endif
+ 
+ 	memdc.
