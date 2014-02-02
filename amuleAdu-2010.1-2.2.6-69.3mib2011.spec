@@ -1,8 +1,3 @@
-%define use_ccache	1
-%define ccachedir	~/.ccache-OOo%{mdvsuffix}
-%{?_with_ccache: %global use_ccache 1}
-%{?_without_ccache: %global use_ccache 0}
-
 %define		  _enable_debug_packages %{nil}
 %define           debug_package            %{nil}
 
@@ -10,6 +5,12 @@
 %define           distsuffix mib
 Vendor:           MIB - Mandriva Italia Backports - http://mib.pianetalinux.org/
 Packager:         Francesco Mancuso <mcfrank@tiscali.it>
+
+%if %mdkversion >= 201200
+# rpmlint just sucks!!!
+%define _build_pkgcheck_set %{nil}
+%define _build_pkgcheck_srpm %{nil}
+%endif
 
 %define rel	266.69.3
 
@@ -170,7 +171,6 @@ rm -rf %buildroot
 %patch1 -p1 -b .wxdef
 
 %build
-#heavily modified by Nicco
 %configure2_5x \
 --with-wx-config=%{_bindir}/wx-config-unicode\
                --enable-ccache\
@@ -371,6 +371,11 @@ update-alternatives --remove ed2k %{_bindir}/ed2k-%iname
 
 %define date	%(echo `LC_ALL="C" date +"%a %b %d %Y"`)
 %changelog
+* Sun Feb 02 2014 Francesco Mancuso <mcfrank@tiscali.it>  2.6.6.69.3mib2012.1
++ Version 2010.1-2.2.6
+- rebuild vs new wx
+- MIB (Mandriva International Backport) - http://mib.pianetalinux.org/
+
 * Sat Oct 14 2011 Francesco Mancuso <mcfrank@tiscali.it>  2.6.6.69.3mib2011
 + Version 2010.1-2.2.6
 - rebuild vs new wx
