@@ -71,7 +71,7 @@ Patch1: amule-adunanza-wxdef.patch
 URL: http://amule.sourceforge.net
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
-BuildRequires: Vgd-devel) >= 2.0
+BuildRequires: pkgconfig(gd-devel) >= 2.0
 BuildRequires: pkgconfig(curl)
 BuildRequires: png-devel
 BuildRequires: pkgconfig(cryptopp)
@@ -84,7 +84,7 @@ BuildRequires: cvs
 BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(binutils)
 BuildRequires: pkgconfig(libupnp)
-BuildRequires: pkgconfig(GeoIP)
+#BuildRequires: pkgconfig(GeoIP)
 BuildRequires: pkgconfig(gtk2)
 BuildRequires: pkgconfig(glib)
 
