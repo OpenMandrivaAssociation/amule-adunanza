@@ -71,23 +71,22 @@ Patch1: amule-adunanza-wxdef.patch
 URL: http://amule.sourceforge.net
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
-BuildRequires: gd-devel >= 2.0
-BuildRequires: curl-devel
+BuildRequires: Vgd-devel) >= 2.0
+BuildRequires: pkgconfig(curl)
 BuildRequires: png-devel
-BuildRequires: cryptopp-devel
-BuildRequires: ncurses-devel
-BuildRequires: readline-devel
-BuildRequires: gettext-devel
+BuildRequires: pkgconfig(cryptopp)
+BuildRequires: pkgconfig(ncurses)
+BuildRequires: pkgconfig(readline)
+BuildRequires: pkgconfig(gettext
 BuildRequires: desktop-file-utils
-BuildRequires: wxgtku-devel >= 2.8.12
+BuildRequires: pkgconfig(wxgtku) >= 2.8.12
 BuildRequires: cvs
-BuildRequires: zlib-devel
-BuildRequires: binutils-devel
-BuildRequires: libupnp-devel
-BuildRequires: GeoIP-devel
-BuildRequires: readline-devel
-BuildRequires: gtk2-devel
-BuildRequires: glib-devel
+BuildRequires: pkgconfig(zlib)
+BuildRequires: pkgconfig(binutils)
+BuildRequires: pkgconfig(libupnp)
+BuildRequires: pkgconfig(GeoIP)
+BuildRequires: pkgconfig(gtk2)
+BuildRequires: pkgconfig(glib)
 
 # libwxgtku2.8-devel
 BuildRequires: automake1.7
