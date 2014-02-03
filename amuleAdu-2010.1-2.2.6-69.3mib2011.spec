@@ -77,7 +77,7 @@ BuildRequires: png-devel
 BuildRequires: pkgconfig(cryptopp)
 BuildRequires: pkgconfig(ncurses)
 #BuildRequires: pkgconfig(readline)
-BuildRequires: pkgconfig(gettext)
+BuildRequires: gettext-devel
 BuildRequires: desktop-file-utils
 BuildRequires: pkgconfig(wxgtku) >= 2.8.12
 BuildRequires: cvs
