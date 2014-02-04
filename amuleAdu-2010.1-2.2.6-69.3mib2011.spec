@@ -79,7 +79,8 @@ BuildRequires: pkgconfig(ncurses)
 #BuildRequires: pkgconfig(readline)
 BuildRequires: gettext-devel
 BuildRequires: desktop-file-utils
-BuildRequires: pkgconfig(wxgtku) >= 2.8.12
+BuildRequires: libwxgtk2.8-devel
+#pkgconfig(wxgtku) >= 2.8.12
 BuildRequires: cvs
 BuildRequires: pkgconfig(zlib)
 BuildRequires: binutils-devel
