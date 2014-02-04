@@ -82,8 +82,8 @@ BuildRequires: desktop-file-utils
 BuildRequires: pkgconfig(wxgtku) >= 2.8.12
 BuildRequires: cvs
 BuildRequires: pkgconfig(zlib)
-BuildRequires: pkgconfig(binutils)
-BuildRequires: pkgconfig(libupnp)
+BuildRequires: binutils-devel
+BuildRequires: libupnp-devel
 #BuildRequires: pkgconfig(GeoIP)
 BuildRequires: pkgconfig(gtk2)
 BuildRequires: pkgconfig(glib)
