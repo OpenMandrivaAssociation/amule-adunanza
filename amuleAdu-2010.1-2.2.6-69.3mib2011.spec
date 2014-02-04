@@ -73,7 +73,7 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 
 BuildRequires: gd-devel >= 2.0
 BuildRequires: pkgconfig(curl)
-BuildRequires: pkgconfig(png)
+#BuildRequires: png-devel
 BuildRequires: pkgconfig(cryptopp)
 BuildRequires: pkgconfig(ncurses)
 #BuildRequires: pkgconfig(readline)
