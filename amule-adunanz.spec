@@ -14,14 +14,7 @@ Source0:	http://downloads.sourceforge.net/amule-adunanza/aMule-AdunanzA/Stable/%
 
 BuildRequires: gd-devel >= 2.0
 BuildRequires: pkgconfig(libcurl)
-# no aliases provided 
-# TO DO : announce main packagers.DONE
-%ifarch i586
-BuildRequires: libcryptopp-devel
-%ifarch x86_64
-BuildRequires: lib64cryptopp-devel
-%endif
-%endif
+BuildRequires: pkgconfig(cryptopp)
 BuildRequires: pkgconfig(ncurses)
 BuildRequires: gettext-devel
 BuildRequires: desktop-file-utils
