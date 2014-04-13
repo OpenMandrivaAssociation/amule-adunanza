@@ -1,3 +1,4 @@
+%define debug_package	%{nil}
 %define oname aMule-AdunanzA
 
 
