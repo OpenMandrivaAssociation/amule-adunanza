@@ -18,7 +18,7 @@ BuildRequires: pkgconfig(libcurl)
 # TO DO : announce main packagers.DONE
 %ifarch i586
 BuildRequires: libcryptopp-devel
-%ifarch x86+_64
+%ifarch x86_64
 BuildRequires: lib64cryptopp-devel
 %endif
 %endif
