@@ -45,7 +45,7 @@ following platforms: Linux, *BSD and MacOS X.
 
 %build
   ./configure --prefix=/usr \
-  --with-wx-config=/usr/bin/wx-config-2.8 \
+  --with-wx-config=/usr/bin/wx-config \
   --mandir=/usr/share/man \
   --disable-upnp \
   --disable-debug \
