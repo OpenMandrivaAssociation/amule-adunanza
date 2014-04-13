@@ -14,7 +14,7 @@ Source0:	http://downloads.sourceforge.net/amule-adunanza/aMule-AdunanzA/Stable/%
 
 BuildRequires: gd-devel >= 2.0
 BuildRequires: pkgconfig(libcurl)
-BuildRequires: pkgconfig(cryptopp)
+BuildRequires: libcryptopp-devel
 BuildRequires: pkgconfig(ncurses)
 BuildRequires: gettext-devel
 BuildRequires: desktop-file-utils
