@@ -58,10 +58,8 @@ following platforms: Linux, *BSD and MacOS X.
 
 %files 
 %{_bindir}/*
-%{_libdir}/xchat/plugins/*
 %{_datadir}/amuleadunanza/skins/*
 %{_datadir}/applications/*.desktop
-%{_datadir}/casAdunanzA/*
 %{_mandir}/*/man1/*
 %{_mandir}/man1/*.1.xz
 %{_docdir}/amuleadunanza/*
