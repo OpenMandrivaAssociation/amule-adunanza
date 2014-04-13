@@ -31,6 +31,8 @@ Conflicts: xmule
 Conflicts: amule 
 Obsoletes: amule
 
+Suggests: xchat
+
 
 %description
 aMule is an easy to use multi-platform client for ED2K Peer-to-Peer
