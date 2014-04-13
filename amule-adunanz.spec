@@ -62,15 +62,10 @@ following platforms: Linux, *BSD and MacOS X.
 %{_datadir}/amuleadunanza/skins/*
 %{_datadir}/applications/*.desktop
 %{_datadir}/casAdunanzA/*
-%{_mandir}/man1/*
+%{_mandir}/*/man1/*
 %{_docdir}/amuleadunanza/*
 %{_datadir}/locale/it/LC_MESSAGES/amuleadunanza.mo
-%{_datadir}/pixmaps/alcadunanza.xpm
-%{_datadir}/pixmaps/amuleadunanza.xpm
-%{_datadir}/pixmaps/amuleguiadunanza.xpm
-%{_datadir}/pixmaps/wxcasadunanza.xpm
-%{_datadir}/amuleadunanza/webserver/*
-/usr/lib/menu/*
+
 
 
 
