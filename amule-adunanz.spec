@@ -1,3 +1,4 @@
+%define debug_package	%{nil}
 %define oname aMule-AdunanzA
 
 
@@ -58,19 +59,14 @@ following platforms: Linux, *BSD and MacOS X.
 
 %files 
 %{_bindir}/*
-%{_libdir}/xchat/plugins/*
 %{_datadir}/amuleadunanza/skins/*
 %{_datadir}/applications/*.desktop
-%{_datadir}/casAdunanzA/*
-%{_mandir}/man1/*
+%{_mandir}/*/man1/*
+%{_mandir}/man1/*.1.xz
 %{_docdir}/amuleadunanza/*
-%{_datadir}/locale/it/LC_MESSAGES/amuleadunanza.mo
-%{_datadir}/pixmaps/alcadunanza.xpm
+%lang (it) %{_datadir}/locale/it/LC_MESSAGES/amuleadunanza.mo
+%lang (uk) %{_datadir}/locale/uk/LC_MESSAGES/amuleadunanza.mo
 %{_datadir}/pixmaps/amuleadunanza.xpm
-%{_datadir}/pixmaps/amuleguiadunanza.xpm
-%{_datadir}/pixmaps/wxcasadunanza.xpm
-%{_datadir}/amuleadunanza/webserver/*
-/usr/lib/menu/*
 
 
 
