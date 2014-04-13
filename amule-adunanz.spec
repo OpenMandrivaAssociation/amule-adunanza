@@ -63,9 +63,11 @@ following platforms: Linux, *BSD and MacOS X.
 %{_datadir}/applications/*.desktop
 %{_datadir}/casAdunanzA/*
 %{_mandir}/*/man1/*
+%{_mandir}/man1/*.1.xz
 %{_docdir}/amuleadunanza/*
 %{_datadir}/locale/it/LC_MESSAGES/amuleadunanza.mo
-
+%{_datadir}/locale/uk/LC_MESSAGES/amuleadunanza.mo
+%{_datadir}/pixmaps/amuleadunanza.xpm
 
 
 
