@@ -29,7 +29,7 @@ BuildRequires: automake1.7
 
 Conflicts: xmule 
 Conflicts: amule 
-Obsoletes: amule
+
 
 Suggests: xchat
 
