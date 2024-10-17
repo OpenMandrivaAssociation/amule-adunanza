@@ -68,7 +68,7 @@ Source13: amule.png
 Patch0:	wxcasframe.patch
 Patch1: amule-adunanza-wxdef.patch
 
-URL: http://amule.sourceforge.net
+URL: https://amule.sourceforge.net
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 BuildRequires: gd-devel >= 2.0
